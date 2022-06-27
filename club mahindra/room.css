@@ -1,0 +1,140 @@
+header{
+    background-color: black;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 8px;
+
+}
+body{
+    /* background-image: url('best room.jpg');
+   filter: brightness(60%);
+   cursor:pointer;
+   */
+   background-color: #C2E7C9;
+}
+
+.heading{
+    text-align: center;
+    color: aqua;
+    text-decoration: wavy;
+    font-size: 1rem;
+    padding: 0rem;
+    /* bottom: 2rem; */
+    cursor: pointer;
+    /* background-image: url('best room.jpg');
+    height: 40rem;
+    width: 50rem;
+    filter: blur(50%); */
+
+   
+
+}
+.heading:hover {
+    color:rgba(0, 255, 225, 0.389);
+    border-bottom: 1px solid gray;
+    /* border-bottom: 3px solid #149fcd; */
+}
+
+
+nav{
+    color: white;
+  
+}
+    
+nav ul{
+    
+    display: flex;
+    padding: 30px;
+    margin: 0px;
+  
+}
+nav ul li{
+    margin-right: 8px;
+    cursor: pointer;
+    list-style-type: none;
+ 
+
+}
+nav ul li a {
+    text-decoration: none;
+    color:rgb(0, 195, 255);
+}
+/* nav ul li a:visited
+nav ul li a:link
+nav ul li a:hover{
+    color: white;
+} */
+.active:hover{
+    color: aquamarine;
+}
+nav ul li a:hover{
+    color: aquamarine;
+}
+nav ul li.active{
+   color: grey;
+}
+.descrp{
+    text-indent: 1px;
+    text-align: justify;
+    
+}
+/* .room-img-2{
+    justify-items: baseline;
+    display: flex;
+} */
+.para1{
+   /* position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content:left;
+    align-items: left;
+    text-align:left;
+    padding: -1rem; */
+    text-align: center;
+
+}
+
+.child{
+    float: left;
+    width: 30%;
+    padding: 5px;
+    box-sizing: border-box;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+ }
+ /* .child img{
+    width: 50%;
+ } */
+.p,.p2{
+    position: relative;
+    bottom: 4rem;
+    left: 0rem;
+    float: left;
+    padding: 0rem;
+    font-size: 1rem;
+    /* z-index: 99;
+    color: black;
+    bottom: 2rem;
+    left: 1rem;
+    font-size: 24px;
+    display: flex;
+    justify-content: space-between; */
+
+}
+/* .footer{
+    
+    background-color: black;
+    border-bottom: 2rem sloid ;
+    cursor: pointer;
+}
+.footer p{
+    text-align: center;
+    color: white;
+    cursor: pointer;
+}
+.footer p:hover{
+    color: aquamarine;
+    transition: 0.5s;
+
+}
+ */
